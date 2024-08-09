@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/jackc/pgconn"
-	"github.com/jackc/pgx/v4"
+	"git.5th.im/gohan/settlement/custom-pgx"
 )
 
 // Tx represents a database transaction acquired from a Pool.

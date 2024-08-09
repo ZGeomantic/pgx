@@ -1,4 +1,4 @@
-[![](https://godoc.org/github.com/jackc/pgx?status.svg)](https://pkg.go.dev/github.com/jackc/pgx/v4)
+[![](https://godoc.org/github.com/jackc/pgx?status.svg)](https://pkg.go.dev/git.5th.im/gohan/settlement/custom-pgx)
 [![Build Status](https://travis-ci.org/jackc/pgx.svg)](https://travis-ci.org/jackc/pgx)
 
 ---
@@ -30,7 +30,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/jackc/pgx/v4"
+	"git.5th.im/gohan/settlement/custom-pgx"
 )
 
 func main() {
@@ -149,11 +149,11 @@ from pgx for lower-level control.
 
 `pgconn` is a lower-level PostgreSQL database driver that operates at nearly the same level as the C library `libpq`.
 
-### [github.com/jackc/pgx/v4/pgxpool](https://github.com/jackc/pgx/tree/master/pgxpool)
+### [git.5th.im/gohan/settlement/custom-pgx/pgxpool](https://github.com/jackc/pgx/tree/master/pgxpool)
 
 `pgxpool` is a connection pool for pgx. pgx is entirely decoupled from its default pool implementation. This means that pgx can be used with a different pool or without any pool at all.
 
-### [github.com/jackc/pgx/v4/stdlib](https://github.com/jackc/pgx/tree/master/stdlib)
+### [git.5th.im/gohan/settlement/custom-pgx/stdlib](https://github.com/jackc/pgx/tree/master/stdlib)
 
 This is a `database/sql` compatibility layer for pgx. pgx can be used as a normal `database/sql` driver, but at any time, the native interface can be acquired for more performance or PostgreSQL specific functionality.
 

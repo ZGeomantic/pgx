@@ -257,7 +257,7 @@ included below.
 * Go modules are required.
 * Errors are now implemented in the Go 1.13 style.
 * `Rows` and `Tx` are now interfaces.
-* The connection pool as been decoupled from pgx and is now a separate, included package (github.com/jackc/pgx/v4/pgxpool).
+* The connection pool as been decoupled from pgx and is now a separate, included package (git.5th.im/gohan/settlement/custom-pgx/pgxpool).
 * pgtype has been spun off to a separate package (github.com/jackc/pgtype).
 * pgproto3 has been spun off to a separate package (github.com/jackc/pgproto3/v2).
 * Logical replication support has been spun off to a separate package (github.com/jackc/pglogrepl).

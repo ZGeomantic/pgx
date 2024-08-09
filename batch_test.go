@@ -8,7 +8,7 @@ import (
 
 	"github.com/jackc/pgconn"
 	"github.com/jackc/pgconn/stmtcache"
-	"github.com/jackc/pgx/v4"
+	"git.5th.im/gohan/settlement/custom-pgx"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

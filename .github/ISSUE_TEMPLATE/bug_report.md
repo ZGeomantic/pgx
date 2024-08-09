@@ -23,7 +23,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/jackc/pgx/v4"
+	"git.5th.im/gohan/settlement/custom-pgx"
 )
 
 func main() {

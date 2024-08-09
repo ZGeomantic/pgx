@@ -6,7 +6,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/jackc/pgx/v4"
+	"git.5th.im/gohan/settlement/custom-pgx"
 )
 
 // TestingLogger interface defines the subset of testing.TB methods used by this

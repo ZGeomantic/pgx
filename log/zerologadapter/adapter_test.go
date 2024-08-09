@@ -5,8 +5,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/jackc/pgx/v4"
-	"github.com/jackc/pgx/v4/log/zerologadapter"
+	"git.5th.im/gohan/settlement/custom-pgx"
+	"git.5th.im/gohan/settlement/custom-pgx/log/zerologadapter"
 	"github.com/rs/zerolog"
 )
 

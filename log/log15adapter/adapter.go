@@ -5,7 +5,7 @@ package log15adapter
 import (
 	"context"
 
-	"github.com/jackc/pgx/v4"
+	"git.5th.im/gohan/settlement/custom-pgx"
 )
 
 // Log15Logger interface defines the subset of

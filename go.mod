@@ -1,4 +1,4 @@
-module github.com/jackc/pgx/v4
+module git.5th.im/gohan/settlement/custom-pgx
 
 go 1.13
 

@@ -198,6 +198,11 @@ func (c connector) Connect(ctx context.Context) (driver.Conn, error) {
 		conn *pgx.Conn
 	)
 
+	begin := time.Now()
+	defer func() {
+		end := time.Now()
+		fmt.Printf("connect establish cost: %d ms\n", end.Sub(begin).Milliseconds())
+	}()
 
 	// Create a shallow copy of the config, so that BeforeConnect can safely modify it
 	connConfig := c.ConnConfig
